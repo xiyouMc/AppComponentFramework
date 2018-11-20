@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Root>
+    <!--页面记录 Bundle-->
+    <Bundle name="com.mc.a.core.MetaInfo" lazy="false">
+        <Service api="com.mc.a.api.AService" impl="com.mc.a.core.impl.AServiceImpl" />
+    </Bundle>
+
+    <Bundle name="com.mc.b.core.MetaInfo">
+        <Service api="com.mc.b.api.BService" impl="com.mc.b.core.impl.BServiceImpl" />
+    </Bundle>
+</Root>

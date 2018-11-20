@@ -1,0 +1,7 @@
+include ':app', ':framework', 'Aapi', 'Acore', 'Bapi', 'Bcore'
+
+project(':Aapi').projectDir = new File('ModuleA/Aapi')
+project(':Acore').projectDir = new File('ModuleA/Acore')
+
+project(':Bapi').projectDir = new File('ModuleB/Bapi')
+project(':Bcore').projectDir = new File('ModuleB/Bcore')
