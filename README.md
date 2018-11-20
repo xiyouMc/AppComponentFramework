@@ -21,7 +21,7 @@ App 组件化 加载框架，维护一个树状数据结构进行管理、深度
 
 > 之前的组件化框架，是直接通过一个 ServiceManager 来管理的，这也导致 ServiceManager 非常重。
 
-![afterBuild.png](https://wt-box.worktile.com/public/fbf8edf8-8d51-413d-85bb-11baab1968d7)
+![afterBuild.png](https://raw.githubusercontent.com/xiyouMc/AppComponentFramework/master/image/before.png)
 
 
 ## 二、需求分析
@@ -56,7 +56,7 @@ Why: 将组件化进行高可用的重构，支持 根节点（组件的初始�
 
 3.2、架构总揽
 
-![after.png](https://wt-box.worktile.com/public/cb7d6a7b-eba0-41a9-9f91-b9330fd765a6)
+![after.png](https://raw.githubusercontent.com/xiyouMc/AppComponentFramework/master/image/after.png)
 
 
 
